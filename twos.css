@@ -1,0 +1,96 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+    
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: start;
+}
+ ul, li, nav{
+     display: inline;
+     margin-top: 90px;
+     margin-left:  10px;
+     padding-right: 10px;
+     padding-top: 10px; margin-top: 10px;
+    
+     list-style: none;
+     text-align: bottom;
+     
+ }
+ .main{
+background-color: gray;
+height: 40px;
+padding: 2px 3px 3px 2px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ } 
+ 
+ a{
+     color: white;
+     text-decoration: none;
+ }
+ .navbar{ float: right;}
+
+ body{ 
+     background-image:url(https://image.freepik.com/free-photo/bright-collection-gunny-textile-samples-fabric-texture-background_106630-401.jpg); 
+    width: 100%; 
+    position: relative; background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+} 
+h1{
+    color: royalblue;
+   
+    font-size: 50px;
+}
+.one{
+    color: black;
+    margin: 10px;
+    text-align:left;
+    padding: 10px 5px 5px 10px;
+    border: transparent;
+ 
+}
+
+a:hover{
+    color: black;
+}
+@media only screen and (max-width:600px){
+    nav, ul{ width: 100px;
+        position: fixed;
+        top: 60px;
+        right:0%;
+
+    }
+    nav, ul, li{
+        display: block; margin-top: 10px; margin-bottom: 10px;
+    }
+    a{
+        max-width:600px; max-height: 1336px;
+        color: black;
+    }
+  a:hover{
+      color: white;
+  }
+    .one{
+        color: black;
+        width: 400px;
+        text-align: center;
+        padding: 10px 5px 5px 10px;
+        border: transparent;
+     max-height: 1336px;
+     max-width: 300px;
+    }
+    body{
+        background-image:url(https://image.freepik.com/free-photo/bright-collection-gunny-textile-samples-fabric-texture-background_106630-401.jpg); 
+        background-size: 1336px;
+    
+}
+
+ 
+    
